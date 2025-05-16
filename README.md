@@ -3,8 +3,11 @@ Este é um projeto Java que permite ao usuário realizar conversões entre difer
 
 🛠️ Tecnologias utilizadas
 Java 17+
+
 Biblioteca Gson para parsing JSON
+
 HttpClient da API nativa do Java
+
 API: ExchangeRate API
 
 📦 Funcionalidades
