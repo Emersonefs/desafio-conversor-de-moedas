@@ -30,6 +30,7 @@ Real (BRL) → Peso Colombiano (COP)
 As taxas de câmbio são atualizadas automaticamente via API.
 
 🧪 Como executar
+
 Clone o repositório:
 git clone https://github.com/seu-usuario/seu-repositorio.git
 Abra o projeto em uma IDE Java (como IntelliJ ou Eclipse)
@@ -38,44 +39,44 @@ Execute a classe Main.java
 
 O terminal exibirá o menu interativo para seleção da conversão.
 
-🧾 Exemplo de uso
-
-========================================
-Esccolha a opção para conversão de moeda
-========================================
-1 - Dola => Real
-2 - Real => Dolar
-...
-========================================
-
-Real => Dolar
-100
-O valor de 100 reais é equivalente a 19.8 em dolar
 🔐 Observações sobre a API
+
 Este projeto utiliza a chave de API gratuita:
-https://v6.exchangerate-api.com/v6/6446bc677e0823590980ecdd/latest/USD
+https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD
 Se quiser usar sua própria chave, você pode se cadastrar gratuitamente em https://www.exchangerate-api.com e substituir a chave no código na classe ApiExangeRate.
 
 📁 Estrutura do projeto
+
 📦 src
+
  ┣ 📜 Main.java
+
  ┣ 📜 Metodos.java
+ 
  ┣ 📜 ApiExangeRate.java
+ 
  ┣ 📜 Moeda.java (record para JSON)
+ 
 🧠 Aprendizados
+
 ✔️ Uso de APIs REST com Java
+
 ✔️ Parsing de JSON usando Gson
+
 ✔️ Programação orientada a objetos
+
 ✔️ Menu interativo no terminal
+
 ✔️ Boas práticas com record e separação de responsabilidades
 
+
 💡 Melhorias futuras
+
 Histórico de conversões
 
 Suporte a mais moedas
 
 Validação de entrada do usuário
 
-🧑‍💻 Autor
-Desenvolvido por [Emerson Ferreira]
+🧑‍💻Desenvolvido por [Emerson Ferreira]
 [LinkedIn](https://www.linkedin.com/in/emerson-ferreira-sa/) | [GitHub](https://github.com/Emersonefs)
