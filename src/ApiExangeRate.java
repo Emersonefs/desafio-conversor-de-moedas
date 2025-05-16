@@ -10,12 +10,12 @@ import java.nio.charset.StandardCharsets;
 
 public class ApiExangeRate {
 
-    public Moeda conversor (String moeda){
+    public Moeda conversor(String moeda) {
 
         String tipoMoeda = moeda;
 
         tipoMoeda = URLEncoder.encode(tipoMoeda, StandardCharsets.UTF_8);
-        URI endereco = URI.create(("https://v6.exchangerate-api.com/v6/6446bc677e0823590980ecdd/latest/" + tipoMoeda ));
+        URI endereco = URI.create(("https://v6.exchangerate-api.com/v6/6446bc677e0823590980ecdd/latest/" + tipoMoeda));
 
 
         HttpClient client = HttpClient.newHttpClient();
