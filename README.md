@@ -3,11 +3,8 @@ Este é um projeto Java que permite ao usuário realizar conversões entre difer
 
 🛠️ Tecnologias utilizadas
 Java 17+
-
 Biblioteca Gson para parsing JSON
-
 HttpClient da API nativa do Java
-
 API: ExchangeRate API
 
 📦 Funcionalidades
@@ -31,10 +28,6 @@ As taxas de câmbio são atualizadas automaticamente via API.
 
 🧪 Como executar
 Clone o repositório:
-
-bash
-Copiar
-Editar
 git clone https://github.com/seu-usuario/seu-repositorio.git
 Abra o projeto em uma IDE Java (como IntelliJ ou Eclipse)
 
@@ -43,9 +36,7 @@ Execute a classe Main.java
 O terminal exibirá o menu interativo para seleção da conversão.
 
 🧾 Exemplo de uso
-plaintext
-Copiar
-Editar
+
 ========================================
 Esccolha a opção para conversão de moeda
 ========================================
@@ -59,17 +50,10 @@ Real => Dolar
 O valor de 100 reais é equivalente a 19.8 em dolar
 🔐 Observações sobre a API
 Este projeto utiliza a chave de API gratuita:
-
-bash
-Copiar
-Editar
 https://v6.exchangerate-api.com/v6/6446bc677e0823590980ecdd/latest/USD
 Se quiser usar sua própria chave, você pode se cadastrar gratuitamente em https://www.exchangerate-api.com e substituir a chave no código na classe ApiExangeRate.
 
 📁 Estrutura do projeto
-css
-Copiar
-Editar
 📦 src
  ┣ 📜 Main.java
  ┣ 📜 Metodos.java
